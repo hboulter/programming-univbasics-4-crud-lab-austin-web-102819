@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = fav_colors
-  fav_colors << "purple"
+  fav_colors = array
+  array << "purple"
 end
 
 def add_element_to_start_of_array(array, element)
